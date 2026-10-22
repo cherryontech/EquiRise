@@ -1,0 +1,23 @@
+server:
+  port: ${PORT:8080}
+
+supabase:
+  url: ${SUPABASE_URL}
+  anon-key: ${SUPABASE_ANON_KEY}
+
+app:
+  # Comma-separated browser origins allowed to call the API directly (not needed when using the Vercel rewrite)
+  cors-origins: ${CORS_ORIGINS:http://localhost:5173}
+  # true in production (HTTPS); false for local http://localhost
+  cookie-secure: ${COOKIE_SECURE:false}
+  # How long a device counts as "signed in before" (drives the "Welcome back" screen)
+  signed-in-before-days: ${SIGNED_IN_BEFORE_DAYS:365}
+  # Idle timeout proposal: the refresh cookie is renewed on every session check,
+  # so a device inactive for this many days must sign in again.
+  idle-timeout-days: ${IDLE_TIMEOUT_DAYS:7}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health

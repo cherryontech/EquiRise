@@ -1,0 +1,8 @@
+/Users/padmaja/Downloads/equirise/EquiRise/backend/src/main/java/com/equirise/EquiRiseApplication.java
+/Users/padmaja/Downloads/equirise/EquiRise/backend/src/main/java/com/equirise/auth/ApiExceptionHandler.java
+/Users/padmaja/Downloads/equirise/EquiRise/backend/src/main/java/com/equirise/auth/AuthController.java
+/Users/padmaja/Downloads/equirise/EquiRise/backend/src/main/java/com/equirise/auth/Dtos.java
+/Users/padmaja/Downloads/equirise/EquiRise/backend/src/main/java/com/equirise/auth/InvalidCredentialsException.java
+/Users/padmaja/Downloads/equirise/EquiRise/backend/src/main/java/com/equirise/auth/SupabaseAuthClient.java
+/Users/padmaja/Downloads/equirise/EquiRise/backend/src/main/java/com/equirise/config/SupabaseProperties.java
+/Users/padmaja/Downloads/equirise/EquiRise/backend/src/main/java/com/equirise/config/WebConfig.java

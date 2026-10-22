@@ -1,0 +1,14 @@
+com/equirise/auth/Dtos$LoginRequest.class
+com/equirise/auth/Dtos$ForgotPasswordRequest.class
+com/equirise/auth/Dtos$ErrorResponse.class
+com/equirise/auth/AuthController.class
+com/equirise/auth/SupabaseAuthClient.class
+com/equirise/auth/Dtos$UserDto.class
+com/equirise/auth/InvalidCredentialsException.class
+com/equirise/auth/ApiExceptionHandler.class
+com/equirise/auth/Dtos.class
+com/equirise/config/WebConfig.class
+com/equirise/auth/Dtos$TokenResponse.class
+com/equirise/config/SupabaseProperties.class
+com/equirise/EquiRiseApplication.class
+com/equirise/auth/Dtos$SessionResponse.class
